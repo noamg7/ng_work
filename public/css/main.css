@@ -1,8 +1,14 @@
+body{
+  background-image: url(http://media2.fdncms.com/sfweekly/imager/five-reasons-we-still-love-twin-peaks/u/big/2649532/theatre_movie_curtains_stock_by_pyronixcorestock.jpg);
+  background-size: cover;
+  color: #00ffff;
+}
 div#movie{
   border-color: black;
   margin-left: 10px;
   margin-right: 10px;
-  background-color: red;
+  background-color: black;
+  color: red;
 }
 div#number{
   border-style: solid;
@@ -15,6 +21,48 @@ div#img{
 }
 div#info{
   border-style: solid;
+}
+div#BM{
+  background-image: url(http://3.bp.blogspot.com/-zpq5EyuBx1A/VeSpAKjlccI/AAAAAAAAE_U/fG3Fgpj0MvQ/s1600/DJLIFE.png);
+  background-size: cover;
+  color: yellow;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+div#Trumbo{
+  background-image: url(http://s3-img.goldderby.com/ck/images/Trumbo15.jpg);
+  background-size: cover;
+  color: #00ff00;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+div#Spotlight{
+  background-image: url(http://media.npr.org/assets/img/2015/11/06/michael-keaton-as-walter-robby-robinson-liev-schreiber-as-marty-baron-mark-ruffalo-as-michael-rezendes-rachel-mcadams-as-sacha-pfieffer-john-slattery-as-ben-bradlee-jr-and-brian-d-arcy-james-as-matt-carroll-in-s_wide-f1d0aba2442df37f36bbd92174d8e062b50af17f-s900-c85.jpg);
+  background-size: contain;
+  color: #4dffff;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+div#TheHatefulEight{
+  background-image: url(http://az795576.vo.msecnd.net/bh-uploads/2016/01/H8_Featured-1050x525.jpg);
+  background-size: contain;
+  color: #66ff33;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+div#BOS{
+  background-image: url(https://arlenaharrow.files.wordpress.com/2015/11/bridge-of-spies-movie-poster.jpg?w=1000);
+  background-size: contain;
+  color: yellow;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+div#Saul{
+  background-image: url(http://hollywoodnewssource.com/wp-content/uploads/2016/01/maxresdefault.jpg);
+  background-size: contain;
+  color: yellow;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 img{
   height: 250px;
