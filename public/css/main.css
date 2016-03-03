@@ -1,0 +1,25 @@
+div#movie{
+  border-color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: red;
+}
+div#number{
+  border-style: solid;
+}
+div#MT{
+  border-style: solid;
+}
+div#img{
+  border-style: solid;
+}
+div#info{
+  border-style: solid;
+}
+img{
+  height: 250px;
+  width: 250px;
+}
+ul{
+  text-align: left;
+}
