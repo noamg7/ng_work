@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
+<body ng-controller='MovieListController'>
 <center><h1>My Favorite Movies of 2015</h1></center>
 <div>
   <div class="row" id="movie">
@@ -38,10 +38,10 @@
       <div class="col-md-3" id={{movie.id}}>
         <center>
           <ul>
-            <li>Starring: {{movie.starring}}</li>
-            <li>${{movie.gross}}</li>
-            <li>{{movie.oscars}}</li>
-            <li>{{movie.type}}</li>
+            <li>Starring: {{movie.info.starring}}</li>
+            <li>Grossing Revenue: ${{movie.info.gross}}</li>
+            <li>Oscar Nominations: {{movie.info.oscars}}</li>
+            <li>Movie Genre: {{movie.info.type}}</li>
           </ul>
         </center>
       </div>
