@@ -1,14 +1,13 @@
 body{
   background-image: url(http://media2.fdncms.com/sfweekly/imager/five-reasons-we-still-love-twin-peaks/u/big/2649532/theatre_movie_curtains_stock_by_pyronixcorestock.jpg);
   background-size: cover;
-  color: #00ffff;
+  color: #00ff00;
 }
 div#movie{
-  border-color: black;
   margin-left: 10px;
   margin-right: 10px;
   background-color: black;
-  color: red;
+  color: #0000ff;
 }
 div#number{
   border-style: solid;
@@ -53,14 +52,14 @@ div#TheHatefulEight{
 div#BOS{
   background-image: url(https://arlenaharrow.files.wordpress.com/2015/11/bridge-of-spies-movie-poster.jpg?w=1000);
   background-size: contain;
-  color: yellow;
+  color: orange;
   margin-right: 10px;
   margin-left: 10px;
 }
 div#Saul{
   background-image: url(http://hollywoodnewssource.com/wp-content/uploads/2016/01/maxresdefault.jpg);
   background-size: contain;
-  color: yellow;
+  color: red;
   margin-right: 10px;
   margin-left: 10px;
 }

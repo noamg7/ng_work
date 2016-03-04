@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app='ngWork'>
 <head>
   <meta charset="UTF-8">
   <title>ngWork</title>
@@ -25,7 +25,30 @@
     </div>
   </div>
   <br>
-  <div class="row" id="BM">
+  <ol>
+    <li class='row' ng-repeat='movie in movies'>
+      <div class="col-md-3 col-md-offset-3">
+        <center>
+          <h3>{{movie.title}}</h3>
+        </center>
+      </div>
+      <div class="col-md-3">
+        <center><img ng-src="{{movie.img}}"></center>
+      </div>
+      <div class="col-md-3" id={{movie.id}}>
+        <center>
+          <ul>
+            <li>Starring: {{movie.starring}}</li>
+            <li>${{movie.gross}}</li>
+            <li>{{movie.oscars}}</li>
+            <li>{{movie.type}}</li>
+          </ul>
+        </center>
+      </div>
+    </li>
+  </ol>
+
+  <!-- <div class="row" id="BM">
     <div class="col-md-3">
       <center><h1>1.</h1></center>
     </div>
@@ -141,7 +164,8 @@
           <li>Type: Drama, Thriller</li>
         </ul></center>
     </div>
-  </div>
+  </div> -->
 </div>
+<script src='js/app.js'></script>
 </body>
 </html>
