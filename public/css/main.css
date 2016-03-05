@@ -1,13 +1,13 @@
 body{
-  background-image: url(http://media2.fdncms.com/sfweekly/imager/five-reasons-we-still-love-twin-peaks/u/big/2649532/theatre_movie_curtains_stock_by_pyronixcorestock.jpg);
-  background-size: cover;
-  color: #00ff00;
+  background-image: url(http://www.filmofilia.com/wp-content/uploads/2013/02/85-Oscar-Noms.jpg);
+  background-size: contain;
+  color: #000099;
 }
 div#movie{
   margin-left: 10px;
   margin-right: 10px;
   background-color: black;
-  color: #0000ff;
+  color: #ffff00;
 }
 div#number{
   border-style: solid;
