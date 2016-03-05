@@ -3,7 +3,7 @@ var app = angular.module('ngWork', []);
 app.controller('MovieListController', function($scope){
   $scope.movies = [
     {
-      //video: "https://www.youtube.com/embed/R_F-lVhSfx8",
+      video: "https://www.youtube.com/embed/R_F-lVhSfx8",
       title: 'Black Mass',
       img: "https://s-media-cache-ak0.pinimg.com/736x/7e/4a/8f/7e4a8f08cd3c5585dffefbfa6c95120d.jpg",
        info: {
@@ -15,7 +15,7 @@ app.controller('MovieListController', function($scope){
       backgroundImg: "http://3.bp.blogspot.com/-zpq5EyuBx1A/VeSpAKjlccI/AAAAAAAAE_U/fG3Fgpj0MvQ/s1600/DJLIFE.png",
     },
      {
-       //video: "https://www.youtube.com/watch?v=jLuxQhdUqLY",
+       video: "https://www.youtube.com/embed/6gryhSJxx7I",
        title: 'Trumbo',
        img: "http://cdn3-www.comingsoon.net/assets/uploads/gallery/trumbo/trumboposter.jpg",
        info: {
