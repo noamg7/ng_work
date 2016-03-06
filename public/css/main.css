@@ -1,7 +1,7 @@
 body{
-  background-image: url(http://www.filmofilia.com/wp-content/uploads/2013/02/85-Oscar-Noms.jpg);
-  background-size: contain;
-  color: #000099;
+  background-image: url(https://i.ytimg.com/vi/GF0NZAi05ko/maxresdefault.jpg);
+  background-size: cover;
+  color: white;
 }
 div#movie{
   margin-left: 10px;
@@ -21,7 +21,7 @@ div#img{
 div#info{
   border-style: solid;
 }
-div#BM{
+/*div#BM{
   background-image: url(http://3.bp.blogspot.com/-zpq5EyuBx1A/VeSpAKjlccI/AAAAAAAAE_U/fG3Fgpj0MvQ/s1600/DJLIFE.png);
   background-size: cover;
   color: yellow;
@@ -62,7 +62,8 @@ div#Saul{
   color: red;
   margin-right: 10px;
   margin-left: 10px;
-}
+}*/
+
 img{
   height: 250px;
   width: 250px;

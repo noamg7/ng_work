@@ -73,7 +73,6 @@ app.controller('MovieListController', function($scope){
          type: 'Drama, Thriller',
        },
        backgroundImg: "http://hollywoodnewssource.com/wp-content/uploads/2016/01/maxresdefault.jpg",
-
      },
   ];
 });
