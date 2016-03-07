@@ -12,7 +12,7 @@
 <div>
   <div class="row" id="movie">
     <div class="col-md-3" id="number">
-      <center><h3>#</h3></center>
+      <center><h3>Movie clip</h3></center>
     </div>
     <div class="col-md-3" id="MT">
       <center><h3>Movie Title</h3></center>
@@ -27,7 +27,10 @@
   <br>
   <ol>
     <li class='row' ng-repeat='movie in movies'>
-      <div class="col-md-3 col-md-offset-3">
+      <div class="col-md-3">
+      <object width="350" height="300" data="{{movie.video}}" frameborder="0" allowfullscreen></object>
+      </div>
+      <div class="col-md-3">
         <center>
           <h3>{{movie.title}}</h3>
         </center>
@@ -43,7 +46,6 @@
             <li>Oscar Nominations: {{movie.info.oscars}}</li>
             <li>Movie Genre: {{movie.info.type}}</li>
           </ul>
-        </center>
       </div>
     </li>
   </ol>
