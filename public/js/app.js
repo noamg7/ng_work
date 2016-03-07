@@ -3,7 +3,7 @@ var app = angular.module('ngWork', []);
 app.controller('MovieListController', function($scope){
   $scope.movies = [
     {
-      video: "https://www.youtube.com/embed/R_F-lVhSfx8",
+      video: "R_F-lVhSfx8",
       title: 'Black Mass',
       img: "https://s-media-cache-ak0.pinimg.com/736x/7e/4a/8f/7e4a8f08cd3c5585dffefbfa6c95120d.jpg",
        info: {
@@ -15,7 +15,7 @@ app.controller('MovieListController', function($scope){
       backgroundImg: "http://3.bp.blogspot.com/-zpq5EyuBx1A/VeSpAKjlccI/AAAAAAAAE_U/fG3Fgpj0MvQ/s1600/DJLIFE.png",
     },
      {
-       video: "https://www.youtube.com/embed/6gryhSJxx7I",
+       video: "6gryhSJxx7I",
        title: 'Trumbo',
        img: "http://cdn3-www.comingsoon.net/assets/uploads/gallery/trumbo/trumboposter.jpg",
        info: {
@@ -27,7 +27,7 @@ app.controller('MovieListController', function($scope){
        backgroundImg: "http://s3-img.goldderby.com/ck/images/Trumbo15.jpg",
      },
      {
-       video: "https://www.youtube.com/embed/tb_WgKDqPsE",
+       video: "tb_WgKDqPsE",
        title: 'Spotlight',
        img: "http://cdn02.cdn.justjared.com/wp-content/uploads/headlines/2015/08/rachel-mcadams-spotlight-poster.jpg",
        info: {
@@ -39,7 +39,7 @@ app.controller('MovieListController', function($scope){
        backgroundImg: "http://media.npr.org/assets/img/2015/11/06/michael-keaton-as-walter-robby-robinson-liev-schreiber-as-marty-baron-mark-ruffalo-as-michael-rezendes-rachel-mcadams-as-sacha-pfieffer-john-slattery-as-ben-bradlee-jr-and-brian-d-arcy-james-as-matt-carroll-in-s_wide-f1d0aba2442df37f36bbd92174d8e062b50af17f-s900-c85.jpg",
      },
      {
-       video: "https://www.youtube.com/embed/6_UI1GzaWv0",
+       video: "6_UI1GzaWv0",
        title: 'The Hateful Eight',
        img: "http://dl9fvu4r30qs1.cloudfront.net/05/ea/4f64ae7d4bd0b3db2891cd30c525/the-hateful-eight-poster-2.jpg",
        info: {
@@ -51,7 +51,7 @@ app.controller('MovieListController', function($scope){
        backgroundImg: "http://az795576.vo.msecnd.net/bh-uploads/2016/01/H8_Featured-1050x525.jpg",
      },
      {
-       video: "https://www.youtube.com/embed/mBBuzHrZBro",
+       video: "mBBuzHrZBro",
        title: 'Bridge of Spies',
        img: "http://cdn.collider.com/wp-content/uploads/2015/06/bridge-of-spies-poster.jpg",
        info: {
@@ -63,7 +63,7 @@ app.controller('MovieListController', function($scope){
        backgroundImg: "https://arlenaharrow.files.wordpress.com/2015/11/bridge-of-spies-movie-poster.jpg?w=1000",
      },
      {
-       video: "https://www.youtube.com/embed/3wMzPztPavs",
+       video: "3wMzPztPavs",
        title: 'Son of Saul',
        img: "http://www.tribute.ca/tribute_objects/images/movies/Son_of_Saul/son-of-saul-poster-lg.jpg",
        info: {
